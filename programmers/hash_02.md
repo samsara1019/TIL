@@ -49,3 +49,7 @@ Java에서 배열을 정렬하는 방법을 검색해보니,`Arrays.sort()`함�
 
 #### Java에서 문자열이 특정 문자열로 시작되는지 알아내기
 Java에도 Javascript와 같은 `startsWith`함수가 있었다.    
+
+<hr />
+
+출처: 프로그래머스 코딩 테스트 연습, [https://programmers.co.kr/learn/courses/30/lessons/42577](https://programmers.co.kr/learn/courses/30/lessons/42577)
