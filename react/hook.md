@@ -120,9 +120,9 @@ React는 **첫번째 렌더링을 포함하여 매 렌더링 이후에 effects�
       useEffect(() => {
         ChatAPI.subscribeToFriendStatus(props.friend.id, handleStatusChange);
     
-        **return () => {
+        return () => {
           ChatAPI.unsubscribeFromFriendStatus(props.friend.id, handleStatusChange);
-        };**
+        };
       });
     
       if (isOnline === null) {
